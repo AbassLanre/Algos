@@ -5,6 +5,7 @@ def twoSum( nums, target):
     #         if nums[i] + nums[j]== target and i != j :
     #             return [i,j]
             
+    # just saved memory here
     for i,value_i in enumerate(nums):
         for j,value_j in enumerate(nums):
             if value_i +value_j == target and  i!=j:
