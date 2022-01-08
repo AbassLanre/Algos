@@ -1,8 +1,11 @@
 def isPalindrome( x):    
     new_val = str(x)
+    # initial thought
     #  if new_val[-1] != new_val[0]: return False
     #  reversed_value=new_val[::-1]
     #  if reversed_value == new_val : return True
+    
+    #Faster
     stri =''
     for i in new_val:
         stri = i + stri
